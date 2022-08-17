@@ -13,5 +13,4 @@ public class ArrList {
             System.out.println(food);
         }
     }
-
 }
