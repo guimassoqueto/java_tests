@@ -1,8 +1,8 @@
 package objects;
 
 public class Person {
-    private String FIRSTNAME;
-    private String LASTNAME;
+    private final String FIRSTNAME;
+    private final String LASTNAME;
     private int AGE;
 
     public Person(String firstName, String lastName) {
