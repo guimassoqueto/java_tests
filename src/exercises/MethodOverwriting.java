@@ -1,4 +1,4 @@
-package objects;
+package exercises;
 
 public class MethodOverwriting {
     public String toString() {
