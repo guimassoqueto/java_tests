@@ -11,6 +11,8 @@ abstract class Vehicle {
         this.hasWheels = hasWheels;
     }
 
+    abstract void go();
+
     public void info() {
         System.out.println("Vehicle info.");
     }
@@ -27,5 +29,9 @@ public class CarExt extends Vehicle {
     @Override
     public void info() {
         System.out.println("CarExt info.");
+    }
+
+    public void go() {
+        System.out.println("CarExt class: go() abstract method implemented.");
     }
 }
