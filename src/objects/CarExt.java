@@ -1,6 +1,6 @@
 package objects;
 
-class Vehicle {
+abstract class Vehicle {
     public float maxSpeedKMH;
     public String medium;
     public boolean hasWheels;
