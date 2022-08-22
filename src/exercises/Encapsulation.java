@@ -11,6 +11,10 @@ public class Encapsulation {
         this.attribute3 = attribute3;
     }
 
+    public Encapsulation(Encapsulation e) {
+        this.copy(e);
+    }
+
     public String setAttribute1() {
         return this.attribute1;
     }
