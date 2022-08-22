@@ -34,4 +34,10 @@ public class Encapsulation {
     public void setAttribute3(String newAttribute3) {
         this.attribute2 = newAttribute3;
     }
+
+    public void copy(Encapsulation e) {
+        e.attribute1 = this.attribute1;
+        e.attribute2 = this.attribute2;
+        e.attribute3 = this.attribute3;
+    }
 }
